@@ -1,6 +1,6 @@
 1. Checkout this repo
-2. Execute `RunTests.ps1` in Powershell (Right-click it)
-This will run a single test with 5 datarows
+2. Execute `RunTests.ps1` in Powershell (Right-click it).  
+This will run a single test with 5 datarows.  
 Each datarow will attach one `ResultFile`
 
 ```
@@ -26,9 +26,9 @@ public class TestClass
 }
 ```
 
-3. Open newly created TRX file under `..\tests\logs\` with an editor
-Each test (one test fpr each datarow) now contains 5 resultfiles.
-Not only does one test contain their own ResultFile, but also all ResultFiles of the other datarows.
+3. Open newly created TRX file under `..\tests\logs\` with an editor.  
+Each test (one test fpr each datarow) now contains 5 resultfiles.  
+Not only does one test contain their own ResultFile, but also all ResultFiles of the other datarows.  
 
  
 ```
