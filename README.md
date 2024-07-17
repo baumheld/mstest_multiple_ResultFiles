@@ -3,7 +3,7 @@
 This will run a single test with 5 datarows
 Each datarow will attach one `ResultFile`
 
-```
+```csharp
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace TestProject;
@@ -31,7 +31,7 @@ Each test (one test fpr each datarow) now contains 5 resultfiles.
 Not only does one test contain their own ResultFile, but also all ResultFiles of the other datarows.
 
  
-```
+```xml
 [...]
 <Results>
     <UnitTestResult executionId="7c20a225-47f1-452c-929e-8ed161c92996" testId="ed522b40-2be8-facb-40aa-3a96cc0ac794" testName="TestMethodAsync (&quot;DataRow1&quot;)" computerName="removed-PC" duration="00:00:00.0030518" startTime="2024-07-17T15:15:25.7902755+00:00" endTime="2024-07-17T15:15:25.8069986+00:00" testType="13CDC9D9-DDB5-4fa4-A97D-D965CCFC6D4B" outcome="Passed" testListId="8C84FA94-04C1-424b-9868-57A2D4851A1D" relativeResultsDirectory="7c20a225-47f1-452c-929e-8ed161c92996">
